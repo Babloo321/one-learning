@@ -1,0 +1,22 @@
+.container{
+  margin: 0;
+  padding: 40px;
+  color: #373737;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.container .content{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container .image{
+  
+  padding: 40px;
+  flex: 2;
+  height: 400px;
+  width: 300px;
+}
