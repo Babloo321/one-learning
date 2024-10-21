@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  .main-container{
+    height: 200px;
+    max-height: 70px;
+    background-color: #373737;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    
+  }
+  .main-container .main-header{
+    display: inline;
+    height: 200px;
+    max-height: 80px;
+    width: auto;
+    max-width: auto;
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .main-header .logo{
+    /* float: left; */
+    width: 400px;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-size: 32px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight:900;
+  }
+  
+  

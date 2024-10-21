@@ -1,0 +1,26 @@
+
+.navigation {
+  height: 200px;
+  width: 100%;
+}
+
+.navigation ul {
+display: flex;
+margin-left: 122px;
+flex-direction: row;
+}
+
+.navigation ul li {
+list-style:none;
+margin-top: 22px;
+margin-left: 33px;
+}
+.navigation ul li .link{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navigation ul li .link:hover{
+  cursor: pointer;
+  color: rgb(226, 171, 67);
+}
