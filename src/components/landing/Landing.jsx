@@ -42,7 +42,6 @@ const Landing = () => {
           <ImageSlider />
         </div>
       </div>
-
       <div className="grid-item middle-column">
         {showHeading ? (
           <div className="heading-btn">
